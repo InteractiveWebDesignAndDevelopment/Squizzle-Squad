@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cbee7361-3922-4e11-a31b-5e44bb63b18c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/img/server-white.jpg" afterPath="$PROJECT_DIR$/img/server-white.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/main.css" afterPath="$PROJECT_DIR$/css/main.css" />
-    </list>
+    <list default="true" id="cbee7361-3922-4e11-a31b-5e44bb63b18c" name="Default" comment="" />
     <ignored path="Assignment-One.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -264,7 +260,7 @@
       <workItem from="1475880184013" duration="4146000" />
       <workItem from="1475891035762" duration="2409000" />
       <workItem from="1476817561411" duration="237000" />
-      <workItem from="1476818111736" duration="5271000" />
+      <workItem from="1476818111736" duration="5366000" />
     </task>
     <task id="LOCAL-00001" summary="typedJS added customized for Squizzle squad">
       <created>1476823148437</created>
@@ -277,7 +273,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16170000" />
+    <option name="totallyTimeSpent" value="16265000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="6" />
