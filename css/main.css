@@ -94,6 +94,9 @@ section {
     margin-bottom: 30px;
 }
 
+h2 {
+    text-transform: uppercase;
+}
 
 #Features h2 {
     text-align: center;
