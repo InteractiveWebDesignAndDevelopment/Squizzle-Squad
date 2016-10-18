@@ -1,10 +1,79 @@
-header {
-    min-height: 100vh;
-    background: url(../img/server-white.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+
+@media (min-width: 50px) and ( -webkit-min-device-pixel-ratio: 1 ) {
+    header {
+        min-height: 100vh;
+        background: url(../img/server-white@0,5x.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}
+@media (min-width: 560px) and ( -webkit-min-device-pixel-ratio: 2 ) {
+    header {
+        min-height: 100vh;
+        background: url(../img/server-white.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    nav{
+        margin-left: 60px;
+    }
+}
+@media (min-width: 1024px) and ( -webkit-min-device-pixel-ratio: 1 ) {
+    header {
+        min-height: 100vh;
+        background: url(../img/server-white@0,75x.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    nav{
+        margin-left: 60px;
+    }
+}
+
+@media (min-width: 1024px) and ( -webkit-min-device-pixel-ratio: 2 ) {
+    header {
+        min-height: 100vh;
+        background: url(../img/server-white@1,5x.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    nav{
+        margin-left: 60px;
+    }
+}
+@media (min-width: 1280px) and ( -webkit-min-device-pixel-ratio: 1 ) {
+    header {
+        min-height: 100vh;
+        background: url(../img/server-white.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    nav{
+        margin-left: 60px;
+    }
+}
+@media (min-width: 1280px) and ( -webkit-min-device-pixel-ratio: 2 ) {
+    header {
+        min-height: 100vh;
+        background: url(../img/server-white@2x.jpg) no-repeat center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    nav{
+        margin-left: 60px;
+    }
 }
 
 nav.navbar {
@@ -19,9 +88,7 @@ header .row {
 main.container {
     margin-top: 40px;
 }
-nav{
-    margin-left: 60px;
-}
+
 
 section {
     margin-bottom: 30px;
