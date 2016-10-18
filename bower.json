@@ -1,0 +1,17 @@
+{
+  "name": "Assignment-Two",
+  "homepage": "https://github.com/InteractiveWebDesignAndDevelopment/Squizzle-Squad",
+  "authors": [
+    "Esat IBIS <esat.taha.ibis@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

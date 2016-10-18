@@ -20,16 +20,14 @@ main.container {
     margin-top: 40px;
 }
 nav{
-    margin-left: 40px;
+    margin-left: 60px;
 }
 
 section {
     margin-bottom: 30px;
 }
 
-.card-block a {
-    margin-left: 30%;
-}
+
 #Features h2 {
     text-align: center;
     color: #52C871;
@@ -64,4 +62,42 @@ section {
 .tab-pane img {
     float: left;
     margin: 40px;
+}
+
+.card-img-top {
+    max-width: 100%;
+}
+.tab-pane img {
+    max-width: 100%;
+}
+footer p {
+    text-align: center;
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+.element {
+    color: #626065;
+}
+.card {
+    text-align: center;
 }
