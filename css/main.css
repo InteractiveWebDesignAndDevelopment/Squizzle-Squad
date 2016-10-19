@@ -138,7 +138,8 @@ h2 {
     max-width: 100%;
 }
 .tab-pane img {
-    max-width: 100%;
+    max-width: 75%;
+    width: 400px;
 }
 footer p {
     text-align: center;
