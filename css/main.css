@@ -171,3 +171,6 @@ footer p {
 .card {
     text-align: center;
 }
+.squizzle-link {
+    max-width: 60%;
+}
