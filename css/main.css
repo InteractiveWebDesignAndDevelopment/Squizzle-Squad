@@ -1,8 +1,8 @@
-
 @media (min-width: 50px) and ( -webkit-min-device-pixel-ratio: 1 ) {
     header {
         min-height: 100vh;
         background: url(../img/server-white@0,5x.jpg) no-repeat center center fixed;
+        background-position-x: -300px;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -13,6 +13,7 @@
     header {
         min-height: 100vh;
         background: url(../img/server-white.jpg) no-repeat center center fixed;
+        background-position-x: -300px;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
@@ -144,7 +145,6 @@ h2 {
 footer p {
     text-align: center;
 }
-
 .typed-cursor{
     opacity: 1;
     -webkit-animation: blink 0.7s infinite;
@@ -173,5 +173,13 @@ footer p {
     text-align: center;
 }
 .squizzle-link {
-    max-width: 60%;
+    max-width: 20%;
+    width: 160px;
+    margin-left: 18%;
+    position: fixed;
+    left: 9%;
+    top:40%;
+}
+.hidden {
+    display: none;
 }

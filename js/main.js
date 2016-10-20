@@ -9,3 +9,12 @@ smoothScroll.init({
     offset: 0, // Integer. How far to offset the scrolling anchor location in pixels
     callback: function ( anchor, toggle ) {} // Function to run after scrolling
 });
+
+var squizzleTop = $('#Pricing').offset().top - 150;
+console.log(squizzleTop);
+
+$(window).scroll(function () {
+    if($(window).scrollTop() > squizzleTop) {
+        $('.squizzle-link').addClass('hidden');
+    }
+});
